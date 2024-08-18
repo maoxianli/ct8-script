@@ -29,7 +29,7 @@ deploy_vless() {
     # 安装依赖
     npm install --prefix ./vless
     # 进入工作目录
-    cp -r ./vless ~/domains/$USER.serv00.net
+    cp -r ./vless ~/domains/$USER.ct8.pl
 # ANSI颜色码
 GREEN='\033[0;32m'
 NC='\033[0m'  # 恢复默认颜色
@@ -50,7 +50,7 @@ echo -e "-----------------------------------------------------------------------
 echo -e "感谢原作者 一休: ${GREEN}https://github.com/yixiu001/serv00-script${NC}"
 echo -e "更多免费科学上网教程: ${GREEN}https://www.youtube.com/@kejigongxiang${NC}"
 echo -e "--------------------------------------------------------------------------------------------------"
-echo -e "请执行以下脚本:${GREEN}cd ~/domains/$USER.serv00.net/vless && ./check_vless.sh -p <端口号>${NC}"
+echo -e "请执行以下脚本:${GREEN}cd ~/domains/$USER.ct8.pl/vless && ./check_vless.sh -p <端口号>${NC}"
 }
 
 # Main function
