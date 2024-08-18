@@ -1,10 +1,10 @@
-# serv00-script
+# ct8-script
 
 ## 恢复 vless 服务并发送 Telegram 通知
 
 ### 使用要求
 必须是看以下视频部署的vless节点方可直接使用
-[serv00一键部署vless节点](https://youtu.be/tVtclx_58yM)
+[ct8一键部署vless节点](https://youtu.be/tVtclx_58yM)
 如果不是看以上视频部署的，可自行修改.github/workflows/check_vless.sh里面第31行命令
 具体问题可反馈至群聊[https://t.me/qiankeji](https://t.me/qiankeji)
 
@@ -34,7 +34,7 @@
            "port": 22,
            "username": "user1",
            "password": "password1",
-           "cron": "cd ~/domains/$USER.serv00.net/vless && ./check_vless.sh"
+           "cron": "cd ~/domains/$USER.ct8.pl/vless && ./check_vless.sh"
        },
        {
            "host": "example2.com",
